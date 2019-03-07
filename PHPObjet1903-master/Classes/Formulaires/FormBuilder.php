@@ -1,5 +1,5 @@
 <?php
-
+namespace Classes\Formulaires;
 abstract class FormBuilder
 {
     abstract public function getDatas(): array;

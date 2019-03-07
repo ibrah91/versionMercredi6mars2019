@@ -1,5 +1,5 @@
 <?php
-
+namespace Classes\Formulaires;
 /**
  * Class FormUtility : classe permettant de  :
  * - Générer le HTML du formulaire

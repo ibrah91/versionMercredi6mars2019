@@ -1,12 +1,12 @@
 <?php
-require 'autoloader.php';
+require_once 'autoloader.php';
 
 use Classes\Database\Connection;
 
 $connection = new Connection();
 
 $products = $connection->query(
-    'SELECT * FROM product'
+    "SELECT * FROM product"
 );
 
 // HTML
@@ -24,7 +24,6 @@ include 'header.php'; ?>
             </div>
         </div>
     <?php endforeach; ?>
-
 </main>
 
 <?php include 'footer.html'; ?>
